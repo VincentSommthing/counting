@@ -101,7 +101,7 @@ class Game {
             y = this.y;
             rect(x, y, this.sl, this.sl, this.sl*0.1);
             fill(0);
-            text(this.numbers[0], 0.5*this.sl, this.y);
+            text(this.numbers[0], x, y);
         }
     }
     
